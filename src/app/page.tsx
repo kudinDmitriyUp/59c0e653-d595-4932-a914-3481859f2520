@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -17,12 +17,12 @@ export default function Home() {
       defaultButtonVariant="text-stagger"
       defaultTextAnimation="entrance-slide"
       borderRadius="rounded"
-      contentWidth="65"
+      contentWidth="medium"
       sizing="medium"
-      background="solid"
-      cardStyle="glass-depth"
-      primaryButtonStyle="layered-depth"
-      secondaryButtonStyle="glass-depth"
+      background="circleGradient"
+      cardStyle="glass-elevated"
+      primaryButtonStyle="gradient"
+      secondaryButtonStyle="glass"
       showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
@@ -116,28 +116,28 @@ export default function Home() {
           animationType="blur-reveal"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Deluxe Room",
               description: "Elegant accommodations featuring premium bedding, marble bathroom, and city views. Perfect for business travelers seeking comfort and sophistication.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478430119-1wh7nc77.jpg",
               imageAlt: "Deluxe room with city view"
             },
             {
-              id: "2",
+              id: 2,
               title: "Premium Suite",
               description: "Spacious suite with separate living area, premium amenities, and panoramic views. Ideal for extended stays and special occasions.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478430637-48cfrkcn.jpg",
               imageAlt: "Premium suite living area"
             },
             {
-              id: "3",
+              id: 3,
               title: "Executive Room",
               description: "Modern business-focused room with dedicated workspace, high-speed internet, and access to exclusive executive lounge amenities.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478431379-9s3gwivh.jpg",
               imageAlt: "Executive room with workspace"
             },
             {
-              id: "4",
+              id: 4,
               title: "Penthouse Suite",
               description: "Our most luxurious accommodation featuring private balcony, butler service, and unparalleled city skyline views.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478431872-xwqtjahz.jpg",
@@ -218,7 +218,7 @@ export default function Home() {
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478438838-nd8q4kmq.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478439466-z3491zqo.jpg",
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1763478440066-rk0idfnf.jpg"
-          ]
+          ]}
           speed={35}
           showCard={true}
         />
